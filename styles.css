@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background-color: black;
+}
+.block{
+    height: 50vh;
+    width: 50vw;
+    border: solid white 5px;
+    margin: 5px;
+}
+
+.interior-1{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+    right: 300px;
+}
+
+.interior-2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    
+}
+
+.interior-3{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    right: 600px;
+}
